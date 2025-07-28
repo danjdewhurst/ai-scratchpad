@@ -85,6 +85,12 @@ Building a single-document AI-powered scratchpad application using Tauri + Vue. 
 - [ ] Performance testing with large documents
 - [ ] User experience testing and refinements
 
+### Phase 8: Code Quality & Development Workflow
+- [ ] Tidy up src/ directory - needs properly splitting out into components/views structure
+- [ ] Add comprehensive test suite
+- [ ] Add ESLint and Prettier for code formatting and linting
+- [ ] Add CI pipeline for tests, ESLint, Prettier and building artifacts
+
 ## Technical Stack
 **Core Framework:**
 - **Frontend**: Vue 3 + TypeScript

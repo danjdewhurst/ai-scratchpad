@@ -431,7 +431,7 @@ const copyAsMarkdown = async () => {
     // Convert Quill Delta to markdown
     let markdown = '';
     
-    delta.ops?.forEach((op) => {
+    delta.ops?.forEach((op: any) => {
       if (typeof op.insert === 'string') {
         let text = op.insert;
         
